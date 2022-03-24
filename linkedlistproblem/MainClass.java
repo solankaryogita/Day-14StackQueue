@@ -11,6 +11,16 @@ public class MainClass {
 	    queue.enqueue(70);
 	    queue.enqueue(30);
 	    queue.enqueue(56);
-	    queue.display();   
+	    queue.display();
+	    
+	    System.out.println("\n");
+	    queue.dequeue();
+	    queue.display();
+	    
+	    System.out.println("\n");
+	    System.out.println("Queue is empty or not :" +queue.isEmpty());
+	    System.out.println("Front of queue is : " +queue.peek());
+	    System.out.println("size of queue is :" +queue.size());
+
 	 }
 }

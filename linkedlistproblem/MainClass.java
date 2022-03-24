@@ -12,7 +12,13 @@ public class MainClass {
 	    stack.push(30);
 	    stack.push(56);
 	    stack.display();
-	    System.out.println("\n");
 	   
+	    stack.pop();
+	    stack.display();
+	    System.out.println("\n");
+	    
+	   System.out.println("stack is empty or not :" +stack.isEmpty());
+	   System.out.println("top of stack is :" +stack.peek());
+	   System.out.println("size of stack :" +stack.size());
 	}
 }
